@@ -182,3 +182,60 @@ form button:hover {
     background-color: #34495e;
 }
 
+/* Responsive Design */
+/* ... (previous responsive styles) ... */
+@media only screen and (max-width: 900px) {
+    form {
+        max-width: 100%;
+    }
+    /* portfolio design */
+    .portfolio{
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    /* project-card design */
+    .project-card{
+        flex-direction: column;
+        padding: 10px 10px;
+        align-items: center;
+    }
+    .project-card:hover {
+        transform: none;
+    }
+    
+    .home{
+
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        padding: 2rem 4rem;
+        
+    }
+    img{
+        width: 100%;
+    }
+    .home h3{
+        font-size: 1rem;
+        color: black;
+    }
+    .home h1{
+        font-size: 3rem;
+        color: black;
+    }
+    .home h1 .span1{
+        color:rgb(216, 198, 61);
+    }
+    .home h1 .span2{
+        /* color: #e8d3d3; */
+        color:rgb(216, 198, 61);
+    }
+    
+    .home p{
+        font-size: 0.8rem;
+        color: black;
+        
+    }
+}
+
